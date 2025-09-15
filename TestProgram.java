@@ -12,7 +12,7 @@ public class TestProgram {
             while (true) {
                 robot.keyPress(KeyEvent.VK_Q);
                 robot.keyRelease(KeyEvent.VK_Q);
-                Thread.sleep(INTERVAL_MINUTES * 60 * 1000L)   ;
+                Thread.sleep(INTERVAL_MINUTES * 60 * 1000L)   ; // SALAM
             }
   
         } catch (Exception e) {       
